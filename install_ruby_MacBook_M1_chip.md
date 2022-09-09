@@ -11,7 +11,7 @@ The new Macs with chip `Apple M1 Pro` by default use ARM architecture, and some 
 
 So, when you try to install some ruby versions with a package manager like `rvm` or `rbenv`, you will see this error message:
 
-![imh-1](img/1-error.png)
+![img-1](img/1-error.png)
 
 ## The solution
 
@@ -23,7 +23,9 @@ You have to make your system work with x86 architecture in the background by usi
 ![img-2](img/1-get-info.png)
 
 3. Select Open using Rosetta
+
 ![img-3](img/1-open-rosetta.png)
+
 If you don't see this option, you need to install `Rosseta` first with:
 
 ```
@@ -46,6 +48,7 @@ sudo rm -rf /opt/homebrew
 8. Reinstall openssl: `brew install openssl`
 9. Install Ruby with your version manager:
 `rvm install "2.7.1"` or any version you want
-![img-3](img/1-done.png)
+
+![img-4](img/1-done.png)
 
 As you can see I had other ruby versions installed before and they were installed using ARM architecture and the new one was installed with x86.
