@@ -52,3 +52,6 @@ sudo rm -rf /opt/homebrew
 ![img-4](img/1-done.png)
 
 As you can see I had other ruby versions installed before and they were installed using ARM architecture and the new one was installed with x86.
+
+### Other resource
+* https://www.driftingruby.com/episodes/a-rubyist-s-apple-m1-review
